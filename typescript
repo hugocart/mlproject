@@ -1,0 +1,840 @@
+Script started on Mon Nov 23 11:49:55 2020
+]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject🐍 Loading 'lewagon' virtualenv
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m [32ml[39m[39m [39m [1m[31mv[0m[39m[0m[39m [1m[31mc[0m[39m[0m[32mc[32md[39m [4ms[24m[4ms[4mc[24m[4mc[4mr[24m[4mr[4mi[24m[4mi[4mp[24m[4mp[4mt[24m[4mt[4ms[1m[4m/[0m[24m[4ms[24m[0m[24m [?1l>[?2004l
+]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[39mld[1m[31ml[1m[31md[1m[31ms[0m[39m[0m[32ml[0m[32md[39m[0m[39m [32ml[39m[39m [32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsmlproject-run
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[1m[31mt[1m[31mo[0m[39m[1m[31mt[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mc[0m[39m[0m[32mt[0m[32mo[0m[32mu[0m[32mc[32mh[39m [4mm[24m[4mm[4ml[24m[4ml[4mp[24m[4mp[4mr[24m[4mr[4mo[24m[4mo[4mj[24m[4mj[4me[24m[4me[4mc[24m[4mc[4mt[24m[4mt[4m-[24m[10D[24mm[24ml[24mp[24mr[24mo[24mj[24me[24mc[24mt[24m-computedist.py[?1l>[?2004l
+]2;touch mlproject-computedist.py]1;touch[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32md[39m[1m[31md[1m[31my[0m[39m[1m[31md[1m[31my[1m[31my[0m[39m[1m[31md[1m[31my[0m[39m[0m[39m [0m[32md[39m[0m[39m [39m [1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mstt[39m[32mt[32mo[32mu[32mch[39m mlproject-computedist.py   [?1l>[?2004l
+]2;touch mlproject-computedist]1;touch[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpython computedist.py --coords 48.865 2.380 48.235 2.393[27m[56D[27m[32mp[27m[32my[27m[32mt[27m[32mh[27m[32mo[27m[32mn[39m[27m [27mc[27mo[27mm[27mp[27mu[27mt[27me[27md[27mi[27ms[27mt[27m.[27mp[27my[27m [27m-[27m-[27mc[27mo[27mo[27mr[27md[27ms[27m [27m4[27m8[27m.[27m8[27m6[27m5[27m [27m2[27m.[27m3[27m8[27m0[27m [27m4[27m8[27m.[27m2[27m3[27m5[27m [27m2[27m.[27m3[27m9[27m3[?1l>[?2004l
+]2;python computedist.py --coords 48.865 2.380 48.235 2.393]1;python/Users/hugocart/.pyenv/versions/data/bin/python: can't open file 'computedist.py': [Errno 2] No such file or directory
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsmlproject-computedist mlproject-run
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mstt[39m[32ml[32ms[39m[39m [32mp[32my[32mthon[39m computedist.py --coords 48.865 2.380 48.235 2.393[56D[32ms[32mt[32mt[39m[39m [39m [39m                                                   [53D[32mt[32mo[32mu[32mch[39m mlproject-computedist.py[?1l>[?2004l
+]2;touch mlproject-computedist.py]1;touch[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsmlproject-computedist.py mlproject-run
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mls[39m[32ms[32mt[32mt[39m[32mt[32mo[32mu[32mch[39m [4mmlproject-computedist.py[24m[30D[32ms[32mt[32mt[39m[39m [39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [27D[32ml[32ms[39m[39m [32mp[32my[32mthon[39m computedist.py --coords 48.865 2.380 48.235 2.393[?1l>[?2004l
+]2;python computedist.py --coords 48.865 2.380 48.235 2.393]1;python/Users/hugocart/.pyenv/versions/data/bin/python: can't open file 'computedist.py': [Errno 2] No such file or directory
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;31m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mpython[39m computedist.py --coords 48.865 2.380 48.235 2.393[56D[32ml[32ms[39m[39m [39m [39m [39m                                                   [54D[32ms[32mt[32mt[39m[32mt[32mo[32mu[32mch[39m [4mmlproject-computedist.py[24m[30D[32ms[32mt[32mt[39m[39m [39m  [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [24m [27D[32ml[32ms[39m[39m [32mp[32my[32mthon[39m computedist.py --coords 48.865 2.380 48.235 2.393[56D[32ms[32mt[32mt[39m[39m [39m [39m                                                   [53D[32mt[32mo[32mu[32mch[39m [4mmlproject-computedist[24m[?1l>[?2004l[21D[24mm[24ml[24mp[24mr[24mo[24mj[24me[24mc[24mt[24m-[24mc[24mo[24mm[24mp[24mu[24mt[24me[24md[24mi[24ms[24mt
+]2;touch mlproject-computedist]1;touch[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts]2;hugocart@MacBook-Pro-de-Hugo]1;..oject/scripts]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsMANIFEST.in      README.md        out.csv          [1m[36mscripts[39;49m[0m          [1m[36mtests[39;49m[0m
+Makefile         [1m[36mmlproject[39;49m[0m        requirements.txt setup.py         typescript
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[24m[1m[31ms[1m[31me[0m[39m[0m[39m[4ms[24m[0m[39m [24m [1m[31mc[0m[39m[0m[39m [4ms[24m[24m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[24m [32mt[39m[32mt[32mr[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[32me[39m[?1l>[?2004l
+]2;tree]1;tree.
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── mlproject
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   └── lib.cpython-38.pyc
+│   ├── data
+│   │   └── data.csv.gz
+│   ├── distance.py
+│   └── lib.py
+├── out.csv
+├── requirements.txt
+├── scripts
+│   ├── mlproject-computedist
+│   └── mlproject-run
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   └── lib_test.py
+└── typescript
+
+5 directories, 17 files
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m install[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/hugocart/code/hugocart/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-wheel-o60ui0rm
+       cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/
+  Complete output (30 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  error: [Errno 2] No such file or directory: 'mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-9g7eejga/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/
+    Complete output (28 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    error: file '/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/mlproject-computedist' does not exist
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-uninstall-ikifqtn0/mlproject-run
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-z551fzsp/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-9g7eejga/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m install[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/hugocart/code/hugocart/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-wheel-d0laif2d
+       cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/
+  Complete output (30 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  error: [Errno 2] No such file or directory: 'mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-cisv6r8p/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/
+    Complete output (28 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    error: file '/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/mlproject-computedist' does not exist
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-uninstall-391_mcrb/mlproject-run
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-xgsa92qq/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-cisv6r8p/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mmlproject-computedist --help[27m
+[K[A[28C[27m[1m[31mm[27m[1m[31ml[27m[1m[31mp[27m[1m[31mr[27m[1m[31mo[27m[1m[31mj[27m[1m[31me[27m[1m[31mc[27m[1m[31mt[27m[1m[31m-[27m[1m[31mc[27m[1m[31mo[27m[1m[31mm[27m[1m[31mp[27m[1m[31mu[27m[1m[31mt[27m[1m[31me[27m[1m[31md[27m[1m[31mi[27m[1m[31ms[27m[1m[31mt[0m[39m[27m [27m-[27m-[27mh[27me[27ml[27mp[1B[K[?1l>[?2004l
+]2;mlproject-computedist --help]1;mlproject-computedistzsh: command not found: mlproject-computedist
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m un  [1m[31mm[1m[31ma[1m[31mk[0m[39m[39m [1m[31mm[1m[31ma[0m[39m[0m[39m [0m[39m[4mm[24m[0m[39m [24m [1m[31mmlproject-computedist[0m[39m --help
+[K[K[A[28C[0m[32mm[0m[32ma[0m[32mk[0m[32me[39m[0m[39m [0m[39mi[0m[39mn[0m[39ms[0m[39mt[0m[39ma[0m[39ml[0m[39ml[0m[39m [0m[39m [0m[39m [0m[39m [0m[39m [0m[39m [0m[39m [0m[39m [0m[39m        [1B[K[A[40C[12D[32mt[32mr[32me[2C[39m       [8D[32mm[32ma[32mk[32me[39m install[?1l>[?2004l[1B]2;make install]1;makeProcessing /Users/hugocart/code/hugocart/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-wheel-ukhr6887
+       cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/
+  Complete output (30 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  error: [Errno 2] No such file or directory: 'mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-l2w7z5uc/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/
+    Complete output (28 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    error: file '/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/mlproject-computedist' does not exist
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-uninstall-kix69655/mlproject-run
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-6elubopi/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-l2w7z5uc/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[24m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mstt[39m[32mm[32ma[32mk[32me[39m install[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/hugocart/code/hugocart/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ error
+[31m  ERROR: Command errored out with exit status 1:
+   command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-wheel-ydx8udd1
+       cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/
+  Complete output (32 lines):
+  /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/setuptools/dist.py:458: UserWarning: Normalizing '1.01' to '1.1'
+    warnings.warn(tmpl.format(**locals()))
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib
+  creating build/lib/tests
+  copying tests/__init__.py -> build/lib/tests
+  copying tests/lib_test.py -> build/lib/tests
+  creating build/lib/mlproject
+  copying mlproject/lib.py -> build/lib/mlproject
+  copying mlproject/__init__.py -> build/lib/mlproject
+  copying mlproject/distance.py -> build/lib/mlproject
+  running egg_info
+  creating mlproject.egg-info
+  writing mlproject.egg-info/PKG-INFO
+  writing dependency_links to mlproject.egg-info/dependency_links.txt
+  writing top-level names to mlproject.egg-info/top_level.txt
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '__pycache__' found anywhere in distribution
+  warning: no previously-included files matching '*.so' found anywhere in distribution
+  warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+  warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+  writing manifest file 'mlproject.egg-info/SOURCES.txt'
+  creating build/lib/mlproject/data
+  copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+  running build_scripts
+  creating build/scripts-3.8
+  copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+  error: [Errno 2] No such file or directory: 'mlproject-computedist'
+  ----------------------------------------[0m
+[31m  ERROR: Failed building wheel for mlproject[0m
+[?25h  Running setup.py clean for mlproject
+Failed to build mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+    Running setup.py install for mlproject ... [?25l- error
+[31m    ERROR: Command errored out with exit status 1:
+     command: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-9k3row95/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject
+         cwd: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/
+    Complete output (30 lines):
+    /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/setuptools/dist.py:458: UserWarning: Normalizing '1.01' to '1.1'
+      warnings.warn(tmpl.format(**locals()))
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib
+    creating build/lib/tests
+    copying tests/__init__.py -> build/lib/tests
+    copying tests/lib_test.py -> build/lib/tests
+    creating build/lib/mlproject
+    copying mlproject/lib.py -> build/lib/mlproject
+    copying mlproject/__init__.py -> build/lib/mlproject
+    copying mlproject/distance.py -> build/lib/mlproject
+    running egg_info
+    writing mlproject.egg-info/PKG-INFO
+    writing dependency_links to mlproject.egg-info/dependency_links.txt
+    writing top-level names to mlproject.egg-info/top_level.txt
+    reading manifest template 'MANIFEST.in'
+    warning: no previously-included files matching '__pycache__' found anywhere in distribution
+    warning: no previously-included files matching '*.so' found anywhere in distribution
+    warning: no previously-included files matching '*.ipynb' found anywhere in distribution
+    warning: no previously-included files matching '*' found under directory 'mlproject/jupy'
+    writing manifest file 'mlproject.egg-info/SOURCES.txt'
+    creating build/lib/mlproject/data
+    copying mlproject/data/data.csv.gz -> build/lib/mlproject/data
+    running build_scripts
+    creating build/scripts-3.8
+    copying and adjusting scripts/mlproject-run -> build/scripts-3.8
+    error: file '/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/mlproject-computedist' does not exist
+    ----------------------------------------[0m
+[?25h  Rolling back uninstall of mlproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/mlproject-run
+   from /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-uninstall-ku2c8p7d/mlproject-run
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject-1.0.dist-info/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject-1.0.dist-info
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/mlproject/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~lproject
+  Moving to /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/tests/
+   from /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages/~ests
+[31mERROR: Command errored out with exit status 1: /Users/hugocart/.pyenv/versions/3.8.6/envs/data/bin/python3.8 -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/setup.py'"'"'; __file__='"'"'/private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-j2nyt1he/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-record-9k3row95/install-record.txt --single-version-externally-managed --compile --install-headers /Users/hugocart/.pyenv/versions/3.8.6/envs/data/include/site/python3.8/mlproject Check the logs for full command output.[0m
+make: *** [install] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mmake[39m install[?1l>[?2004l
+]2;make install]1;makeProcessing /Users/hugocart/code/hugocart/mlproject
+Building wheels for collected packages: mlproject
+  Building wheel for mlproject (setup.py) ... [?25l- \ done
+[?25h  Created wheel for mlproject: filename=mlproject-1.0-py3-none-any.whl size=103067 sha256=af6b1f570e37b66c3fcfecdc82febc4a0d3f5e6dc1abf39b87f9ad2bd3f71a15
+  Stored in directory: /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-ephem-wheel-cache-cn7nngjv/wheels/4a/75/51/4a7112b52f8d0078f0657b4d060ac9aa72e5d2fc83e5615446
+Successfully built mlproject
+Installing collected packages: mlproject
+  Attempting uninstall: mlproject
+    Found existing installation: mlproject 1.0
+    Uninstalling mlproject-1.0:
+      Successfully uninstalled mlproject-1.0
+Successfully installed mlproject-1.0
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mmlproject-computedist --help[27m
+[K[A[28C[27m[32mm[27m[32ml[27m[32mp[27m[32mr[27m[32mo[27m[32mj[27m[32me[27m[32mc[27m[32mt[27m[32m-[27m[32mc[27m[32mo[27m[32mm[27m[32mp[27m[32mu[27m[32mt[27m[32me[27m[32md[27m[32mi[27m[32ms[27m[32mt[39m[27m [27m-[27m-[27mh[27me[27ml[27mp[1B[K[?1l>[?2004l
+]2;mlproject-computedist --help]1;mlproject-computedistusage: mlproject-computedist [-h] [--coords COORDS [COORDS ...]] [--prod]
+
+stkrgcp_description
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --coords COORDS [COORDS ...]
+                        mails to send hardware alerts
+  --prod                Example here
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mmlproject-computedist --coords 48.865070 2.380009 48.2350[7m7[7m0 2.393409[27m[K
+[K[A[A[28C[27m[32mm[27m[32ml[27m[32mp[27m[32mr[27m[32mo[27m[32mj[27m[32me[27m[32mc[27m[32mt[27m[32m-[27m[32mc[27m[32mo[27m[32mm[27m[32mp[27m[32mu[27m[32mt[27m[32me[27m[32md[27m[32mi[27m[32ms[27m[32mt[39m[27m [27m-[27m-[27mc[27mo[27mo[27mr[27md[27ms[27m [27m4[27m8[27m.[27m8[27m6[27m5[27m0[27m7[27m0[27m [27m2[27m.[27m3[27m8[27m0[27m0[27m0[27m9[27m [27m4[27m8[27m.[27m2[27m3[27m5[27m07[27m0[27m [27m2[27m.[27m3[27m9[27m3[27m4[27m0[27m9[1B[K[?1l>[?2004l
+]2;mlproject-computedist --coords 48.865070 2.380009 48.235070 2.393409]1;mlproject-computedist[34m###### Distance ######[0m
+[31m70.00789153218594[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mcd ~/code/hugocart/data-challenges/[27m
+[7mgit status[27m[K
+[7m# Is git status clean? If not, commit/checkout/clean first[27m[K
+[K
+[7m# Download any challenge updates (from Teachers)[27m[K
+[7mgit pull upstream master -X ours[27m[K
+[K
+[K
+[7m# Go to challenge folder[27m[K
+[7mcd 07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code[27m[K
+[K
+[7m# Open challenge folder in your text editor[27m[K
+[7mstt[27m[K[12A[25C[27m[32mc[27m[32md[39m[27m [27m[4m~[27m[4m/[27m[4mc[27m[4mo[27m[4md[27m[4me[27m[4m/[27m[4mh[27m[4mu[27m[4mg[27m[4mo[27m[4mc[27m[4ma[27m[4mr[27m[4mt[27m[4m/[27m[4md[27m[4ma[27m[4mt[27m[4ma[27m[4m-[27m[4mc[27m[4mh[27m[4ma[27m[4ml[27m[4ml[27m[4me[27m[4mn[27m[4mg[27m[4me[27m[4ms[27m[4m/[24m[1B[27m[32mg[27m[32mi[27m[32mt[39m[27m [27ms[27mt[27ma[27mt[27mu[27ms[1B[27m[1m[30m#[27m[1m[30m [27m[1m[30mI[27m[1m[30ms[27m[1m[30m [27m[1m[30mg[27m[1m[30mi[27m[1m[30mt[27m[1m[30m [27m[1m[30ms[27m[1m[30mt[27m[1m[30ma[27m[1m[30mt[27m[1m[30mu[27m[1m[30ms[27m[1m[30m [27m[1m[30mc[27m[1m[30ml[27m[1m[30me[27m[1m[30ma[27m[1m[30mn[27m[1m[30m?[27m[1m[30m [27m[1m[30mI[27m[1m[30mf[27m[1m[30m [27m[1m[30mn[27m[1m[30mo[27m[1m[30mt[27m[1m[30m,[27m[1m[30m [27m[1m[30mc[27m[1m[30mo[27m[1m[30mm[27m[1m[30mm[27m[1m[30mi[27m[1m[30mt[27m[1m[30m/[27m[1m[30mc[27m[1m[30mh[27m[1m[30me[27m[1m[30mc[27m[1m[30mk[27m[1m[30mo[27m[1m[30mu[27m[1m[30mt[27m[1m[30m/[27m[1m[30mc[27m[1m[30ml[27m[1m[30me[27m[1m[30ma[27m[1m[30mn[27m[1m[30m [27m[1m[30mf[27m[1m[30mi[27m[1m[30mr[27m[1m[30ms[27m[1m[30mt[0m[39m[2B[27m[1m[30m#[27m[1m[30m [27m[1m[30mD[27m[1m[30mo[27m[1m[30mw[27m[1m[30mn[27m[1m[30ml[27m[1m[30mo[27m[1m[30ma[27m[1m[30md[27m[1m[30m [27m[1m[30ma[27m[1m[30mn[27m[1m[30my[27m[1m[30m [27m[1m[30mc[27m[1m[30mh[27m[1m[30ma[27m[1m[30ml[27m[1m[30ml[27m[1m[30me[27m[1m[30mn[27m[1m[30mg[27m[1m[30me[27m[1m[30m [27m[1m[30mu[27m[1m[30mp[27m[1m[30md[27m[1m[30ma[27m[1m[30mt[27m[1m[30me[27m[1m[30ms[27m[1m[30m [27m[1m[30m([27m[1m[30mf[27m[1m[30mr[27m[1m[30mo[27m[1m[30mm[27m[1m[30m [27m[1m[30mT[27m[1m[30me[27m[1m[30ma[27m[1m[30mc[27m[1m[30mh[27m[1m[30me[27m[1m[30mr[27m[1m[30ms[27m[1m[30m)[0m[39m[1B[27m[32mg[27m[32mi[27m[32mt[39m[27m [27mp[27mu[27ml[27ml[27m [27mu[27mp[27ms[27mt[27mr[27me[27ma[27mm[27m [27mm[27ma[27ms[27mt[27me[27mr[27m [27m-[27mX[27m [27mo[27mu[27mr[27ms[3B[27m[1m[30m#[27m[1m[30m [27m[1m[30mG[27m[1m[30mo[27m[1m[30m [27m[1m[30mt[27m[1m[30mo[27m[1m[30m [27m[1m[30mc[27m[1m[30mh[27m[1m[30ma[27m[1m[30ml[27m[1m[30ml[27m[1m[30me[27m[1m[30mn[27m[1m[30mg[27m[1m[30me[27m[1m[30m [27m[1m[30mf[27m[1m[30mo[27m[1m[30ml[27m[1m[30md[27m[1m[30me[27m[1m[30mr[0m[39m[1B[27m[32mc[27m[32md[39m[27m [27m0[27m7[27m-[27mD[27ma[27mt[27ma[27m-[27mE[27mn[27mg[27mi[27mn[27me[27me[27mr[27mi[27mn[27mg[27m/[27m0[27m1[27m-[27mC[27mo[27md[27me[27m-[27ma[27ms[27m-[27ma[27m-[27mP[27mr[27mo[27md[27mu[27mc[27mt[27m/[27m0[27m3[27m-[27mT[27me[27ms[27mt[27m-[27my[27mo[27mu[27mr[27m-[27mc[27mo[27md[27me[2B[27m[1m[30m#[27m[1m[30m [27m[1m[30mO[27m[1m[30mp[27m[1m[30me[27m[1m[30mn[27m[1m[30m [27m[1m[30mc[27m[1m[30mh[27m[1m[30ma[27m[1m[30ml[27m[1m[30ml[27m[1m[30me[27m[1m[30mn[27m[1m[30mg[27m[1m[30me[27m[1m[30m [27m[1m[30mf[27m[1m[30mo[27m[1m[30ml[27m[1m[30md[27m[1m[30me[27m[1m[30mr[27m[1m[30m [27m[1m[30mi[27m[1m[30mn[27m[1m[30m [27m[1m[30my[27m[1m[30mo[27m[1m[30mu[27m[1m[30mr[27m[1m[30m [27m[1m[30mt[27m[1m[30me[27m[1m[30mx[27m[1m[30mt[27m[1m[30m [27m[1m[30me[27m[1m[30md[27m[1m[30mi[27m[1m[30mt[27m[1m[30mo[27m[1m[30mr[0m[39m[1B[27m[32ms[27m[32mt[27m[32mt[39m[?1l>[?2004l
+]2;cd ~/code/hugocart/data-challenges/; git status; git pull upstream master -X ]1;cdOn branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   06-Deep-Learning/05-Natural-Language-Processing/01-understand-embeddings-with-word2vec/understand-embeddings-with-word2vec.ipynb[m
+	[31mmodified:   06-Deep-Learning/05-Natural-Language-Processing/04-letter-generation/letter_generation.ipynb[m
+	[31mmodified:   07-Data-Engineering/01-Code-as-a-Product/01-Package-builder/README.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+From github.com:lewagon/data-challenges
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..est-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code[0m[27m[24m[J[01;32m➜  [36m03-Test-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpip install coverage[27m[20D[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mc[27mo[27mv[27me[27mr[27ma[27mg[27me[?1l>[?2004l
+]2;pip install coverage]1;pipCollecting coverage
+  Downloading coverage-5.3-cp38-cp38-macosx_10_9_x86_64.whl (205 kB)
+[?25l[K     |█▋                              | 10 kB 10.4 MB/s eta 0:00:01[K     |███▏                            | 20 kB 413 kB/s eta 0:00:01[K     |████▊                           | 30 kB 566 kB/s eta 0:00:01[K     |██████▍                         | 40 kB 706 kB/s eta 0:00:01[K     |████████                        | 51 kB 571 kB/s eta 0:00:01[K     |█████████▌                      | 61 kB 605 kB/s eta 0:00:01[K     |███████████▏                    | 71 kB 696 kB/s eta 0:00:01[K     |████████████▊                   | 81 kB 791 kB/s eta 0:00:01[K     |██████████████▎                 | 92 kB 872 kB/s eta 0:00:01[K     |████████████████                | 102 kB 874 kB/s eta 0:00:01[K     |█████████████████▌              | 112 kB 874 kB/s eta 0:00:01[K     |███████████████████             | 122 kB 874 kB/s eta 0:00:01[K     |████████████████████▊           | 133 kB 874 kB/s eta 0:00:01[K     |██████████████████████▎         | 143 kB 874 kB/s eta 0:00:01[K     |███████████████████████▉        | 153 kB 874 kB/s eta 0:00:01[K     |█████████████████████████▌      | 163 kB 874 kB/s eta 0:00:01[K     |███████████████████████████     | 174 kB 874 kB/s eta 0:00:01[K     |████████████████████████████▋   | 184 kB 874 kB/s eta 0:00:01[K     |██████████████████████████████▎ | 194 kB 874 kB/s eta 0:00:01[K     |███████████████████████████████▉| 204 kB 874 kB/s eta 0:00:01[K     |████████████████████████████████| 205 kB 874 kB/s 
+[?25hInstalling collected packages: coverage
+Successfully installed coverage-5.3
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..est-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code[0m[27m[24m[J[01;32m➜  [36m03-Test-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mmake test[27m[9D[27m[32mm[27m[32ma[27m[32mk[27m[32me[39m[27m [27mt[27me[27ms[27mt[?1l>[?2004l
+]2;make test]1;makemake: *** No rule to make target `test'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..est-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code[0m[27m[24m[J[01;31m➜  [36m03-Test-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsREADME.md
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..est-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/03-Test-your-code[0m[27m[24m[J[01;32m➜  [36m03-Test-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[4m.[24m[24m [4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product]2;hugocart@MacBook-Pro-de-Hugo]1;..-as-a-Product]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product[0m[27m[24m[J[01;32m➜  [36m01-Code-as-a-Product[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering]2;hugocart@MacBook-Pro-de-Hugo]1;..a-Engineering]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering[0m[27m[24m[J[01;32m➜  [36m07-Data-Engineering[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mC[0m[39m[0m[39m [1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[24m[36m.[24m[36m.[36m.[39m[39m[4m.[39m[4m.[24m[39m [?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges]2;hugocart@MacBook-Pro-de-Hugo]1;..ta-challenges]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges[0m[27m[24m[J[01;32m➜  [36mdata-challenges[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~/code/hugocart]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart[0m[27m[24m[J[01;32m➜  [36mhugocart[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsCheat Sheet - Python - Wagon.docx [1m[36mmlproject[39;49m[0m
+[1m[36mdata-challenges[39;49m[0m                   out.csv
+[1m[36mdotfiles[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~/code/hugocart]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart[0m[27m[24m[J[01;32m➜  [36mhugocart[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mm[24m[4mm[4ml[24m[4ml[4mproject[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd mlproject]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mmake test[27m[9D[27m[32mm[27m[32ma[27m[32mk[27m[32me[39m[27m [27m[4mt[27m[4me[27m[4ms[27m[4mt[24m[?1l>[?2004l[24mt[24me[24ms[24mt
+]2;make test]1;makeNo module named 'pytest'
+make: *** [test] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpip install coverage.[27m[21D[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mc[27mo[27mv[27me[27mr[27ma[27mg[27me[27m [?1l>[?2004l
+]2;pip install coverage]1;pipRequirement already satisfied: coverage in /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages (5.3)
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[4mm[4ml[24m[4m[32mm[4m[32ml[4m[32mproject[24m[39m[9D[39m[4mm[39m[4ml[39m[4mp[39m[4mr[39m[4mo[39m[4mj[39m[4me[39m[4mc[24m[24m[39m [4me[24m[24m [4mj[24m[24m [4mo[24m[24m [4mr[24m[24m [4mp[24m[24m [4mm[4ml[24m[24m [4mm[24m[24m [24m [4ms[24m[24m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mstt[39m[32mp[32mi[32mp[39m install coverage[20D[32mm[32ma[32mk[32me[39m [4mt[4me[4ms[4mt[24m           [11D[?1l>[?2004l[24mt[24me[24ms[24mt
+]2;make test]1;makeNo module named 'pytest'
+make: *** [test] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mf[0m[39m[1m[31mf[1m[31mr[0m[39m[1m[31mf[1m[31mr[1m[31mo[0m[39m[0m[32mf[0m[32mr[0m[32mo[32mm[39m [1m[31mf[1m[31mr[1m[31mo[0m[39m[39m [1m[31mf[1m[31mr[0m[39m[0m[39m [1m[31mf[0m[39m[0m[39m [0m[39m [32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsMANIFEST.in      README.md        out.csv          [1m[36mscripts[39;49m[0m          [1m[36mtests[39;49m[0m
+Makefile         [1m[36mmlproject[39;49m[0m        requirements.txt setup.py         typescript
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mls[39m[32mm[32ma[32mke[39m [4mtest[24m[?1l>[?2004l[24mt[24me[24ms[24mt
+]2;make test]1;makeNo module named 'pytest'
+make: *** [test] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mmake[39m [4mtest[24m[9D[39m [39m [39m [39m  [24m [24m [24m [24m [9D[32mmake[39m [4mtest[24m[4ms[24m[24m [4me[24m[24m [4mt[24m[24m [24m [1m[31mm[1m[31ma[1m[31mk[0m[39m[39m [1m[31mm[1m[31ma[0m[39m[0m[39m [0m[39m[4mm[24m[0m[39m [24m [32mp[39m[1m[31mp[1m[31mi[0m[39m[1m[31mp[1m[31mi[1m[31mi[0m[39m [1m[31mp[1m[31mi[0m[39m[0m[39m [0m[32mp[0m[32mi[32mp[39m install pytest[?1l>[?2004l
+]2;pip install pytest]1;pipCollecting pytest
+  Downloading pytest-6.1.2-py3-none-any.whl (272 kB)
+[?25l[K     |█▏                              | 10 kB 7.2 MB/s eta 0:00:01[K     |██▍                             | 20 kB 391 kB/s eta 0:00:01[K     |███▋                            | 30 kB 536 kB/s eta 0:00:01[K     |████▉                           | 40 kB 676 kB/s eta 0:00:01[K     |██████                          | 51 kB 546 kB/s eta 0:00:01[K     |███████▏                        | 61 kB 609 kB/s eta 0:00:01[K     |████████▍                       | 71 kB 685 kB/s eta 0:00:01[K     |█████████▋                      | 81 kB 726 kB/s eta 0:00:01[K     |██████████▉                     | 92 kB 789 kB/s eta 0:00:01[K     |████████████                    | 102 kB 772 kB/s eta 0:00:01[K     |█████████████▎                  | 112 kB 772 kB/s eta 0:00:01[K     |██████████████▍                 | 122 kB 772 kB/s eta 0:00:01[K     |███████████████▋                | 133 kB 772 kB/s eta 0:00:01[K     |████████████████▉               | 143 kB 772 kB/s eta 0:00:01[K     |██████████████████              | 153 kB 772 kB/s eta 0:00:01[K     |███████████████████▎            | 163 kB 772 kB/s eta 0:00:01[K     |████████████████████▌           | 174 kB 772 kB/s eta 0:00:01[K     |█████████████████████▋          | 184 kB 772 kB/s eta 0:00:01[K     |██████████████████████▉         | 194 kB 772 kB/s eta 0:00:01[K     |████████████████████████        | 204 kB 772 kB/s eta 0:00:01[K     |█████████████████████████▎      | 215 kB 772 kB/s eta 0:00:01[K     |██████████████████████████▌     | 225 kB 772 kB/s eta 0:00:01[K     |███████████████████████████▋    | 235 kB 772 kB/s eta 0:00:01[K     |████████████████████████████▉   | 245 kB 772 kB/s eta 0:00:01[K     |██████████████████████████████  | 256 kB 772 kB/s eta 0:00:01[K     |███████████████████████████████▎| 266 kB 772 kB/s eta 0:00:01[K     |████████████████████████████████| 272 kB 772 kB/s 
+[?25hRequirement already satisfied: packaging in /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages (from pytest) (20.4)
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting py>=1.8.2
+  Using cached py-1.9.0-py2.py3-none-any.whl (99 kB)
+Requirement already satisfied: attrs>=17.4.0 in /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages (from pytest) (20.3.0)
+Collecting iniconfig
+  Downloading iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting pluggy<1.0,>=0.12
+  Using cached pluggy-0.13.1-py2.py3-none-any.whl (18 kB)
+Requirement already satisfied: six in /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages (from packaging->pytest) (1.15.0)
+Requirement already satisfied: pyparsing>=2.0.2 in /Users/hugocart/.pyenv/versions/3.8.6/envs/data/lib/python3.8/site-packages (from packaging->pytest) (2.4.7)
+Installing collected packages: toml, py, iniconfig, pluggy, pytest
+Successfully installed iniconfig-1.1.1 pluggy-0.13.1 py-1.9.0 pytest-6.1.2 toml-0.10.2
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mpip[39m install pytest[18D[32mm[32ma[32mk[32me[39m [4mt[4me[4ms[4mt[24m         [9D[?1l>[?2004l[24mt[24me[24ms[24mt
+]2;make test]1;make[1m================================ test session starts ================================[0m
+platform darwin -- Python 3.8.6, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /Users/hugocart/code/hugocart/mlproject
+[1mcollecting ... [0m[1mcollecting 1 item                                                                   [0m[1mcollected 2 items                                                                   [0m
+
+tests/lib_test.py [32m.[0m[32m.[0m
+
+[32m================================= [32m[1m2 passed[0m[32m in 1.27s[0m[32m =================================[0m
+Name                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------
+mlproject/__init__.py       6      2    67%   7-8
+mlproject/lib.py           31      5    84%   53-57
+tests/__init__.py           0      0   100%
+tests/lib_test.py          13      0   100%
+-----------------------------------------------------
+TOTAL                      50      7    86%
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[32ml[39m[39m [39m [32mt[39m[32mt[32mr[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[32me[39m[?1l>[?2004l
+]2;tree]1;tree.
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── mlproject
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   └── lib.cpython-38.pyc
+│   ├── data
+│   │   └── data.csv.gz
+│   ├── distance.py
+│   └── lib.py
+├── out.csv
+├── requirements.txt
+├── scripts
+│   ├── mlproject-computedist
+│   └── mlproject-run
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   └── lib_test.cpython-38-pytest-6.1.2.pyc
+│   └── lib_test.py
+└── typescript
+
+6 directories, 19 files
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mm[24m[4mm[4ml[24m[4ml[4mproject[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd mlproject]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[1m[31mt[1m[31mo[0m[39m[1m[31mt[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mc[0m[39m[0m[32mt[0m[32mo[0m[32mu[0m[32mc[32mh[39m tools.py[?1l>[?2004l
+]2;touch tools.py]1;touch[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[1m[31mt[1m[31mo[0m[39m[1m[31mt[1m[31mo[1m[31mu[0m[39m[1m[31mu[1m[31mc[0m[39m[0m[32mt[0m[32mo[0m[32mu[0m[32mc[32mh[39m [39mt[39mo[39mu[39mc[39mh [7m tool_test.py[27m[19D[32mt[32mo[32mu[32mc[32mh[39m [27m [27mt[27mo[27mo[27ml[27m_[27mt[27me[27ms[27mt[27m.[27mp[27my[?1l>[?2004l
+]2;touch tool_test.py]1;touch[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[32ms[32mt[39m[39m [1m[31ms[0m[39m[39m [0m[39m [7mmake test[27m[9D[27m[32mm[27m[32ma[27m[32mk[27m[32me[39m[27m [27mt[27me[27ms[27mt[?1l>[?2004l
+]2;make test]1;makemake: *** No rule to make target `test'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mmake[39m test[?1l>[?2004l
+]2;make test]1;makemake: *** No rule to make target `test'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mmake[39m test[?1l>[?2004l
+]2;make test]1;makemake: *** No rule to make target `test'.  Stop.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31ms[0m[39m[0m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..ect/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4m.[24m[4m.[4m.[24m[?1l>[?2004l
+]2;cd ..]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[24m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4ms[24m[24m[32ms[32mt[39m[32ms[32mt[32mt[39m[?1l>[?2004l
+]2;'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' .]1;stt[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[4mm[24m[24m[1m[31mm[1m[31ma[0m[39m[1m[31mm[1m[31ma[1m[31mk[0m[39m[0m[32mm[0m[32ma[0m[32mk[32me[39m [4mt[24m[4mt[4me[24m[4me[4ms[24m[4ms[4mt[24m[?1l>[?2004l[24mt[24me[24ms[24mt
+]2;make test]1;make[1m================================ test session starts ================================[0m
+platform darwin -- Python 3.8.6, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /Users/hugocart/code/hugocart/mlproject
+[1mcollecting ... [0m[1mcollecting 1 item                                                                   [0m[1mcollected 3 items                                                                   [0m
+
+tests/lib_test.py [32m.[0m[32m.[0m[32m                                                          [ 33%][0m
+tests/tool_test.py [31mF[0m
+
+===================================== FAILURES ======================================
+[31m[1m_______________________________________ test ________________________________________[0m
+
+    [94mdef[39;49;00m [92mtest[39;49;00m():
+>       [94massert[39;49;00m haversine([94m48.865070[39;49;00m, [94m2.380009[39;49;00m, [94m43.535065[39;49;00m, [94m3.427292[39;49;00m) == [94m70.00789153218594[39;49;00m
+[1m[31mE       assert 603.2466449981002 == 70.00789153218594[0m
+[1m[31mE        +  where 603.2466449981002 = haversine(48.86507, 2.380009, 43.535065, 3.427292)[0m
+
+[1m[31mtests/tool_test.py[0m:5: AssertionError
+============================== short test summary info ==============================
+FAILED tests/tool_test.py::test - assert 603.2466449981002 == 70.00789153218594
+[31m============================ [31m[1m1 failed[0m, [32m2 passed[0m[31m in 1.45s[0m[31m ============================[0m
+make: *** [test] Error 1
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mp[39m[1m[31mp[1m[31my[0m[39m[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[1m[31mh[0m[39m[0m[39m [1m[31mt[0m[39m[0m[39m [1m[31mp[1m[31my[0m[39m[0m[39m [0m[32mp[39m[0m[39m [39m [1m[31mi[0m[39m[1m[31mi[1m[31mp[0m[39m[1m[31mi[1m[31mp[1m[31mt[0m[39m[1m[31mi[1m[31mp[0m[39m[0m[39m [1m[31mi[1m[31mp[1m[31mu[0m[39m[1m[31mi[1m[31mp[0m[39m[0m[39m [1m[31mi[1m[31mp[1m[31my[0m[39m[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mi[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m [?1l>[?2004l
+]2;ipython]1;ipython[22;0t]0;IPython: hugocart/mlprojectPython 3.8.6 (default, Nov 11 2020, 12:11:42) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.19.0 -- An enhanced Interactive Python. Type '?' for help.
+
+[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;92;1m1[0;38;5;28m]: [8D[8C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[8D[0;38;5;28mIn [[0;92;1m1[0;38;5;28m]: [0;38;5;28;1mfrom[0m [0;38;5;32;1mmlproject.tools[0m [0;38;5;28;1mimport[0m haversine[0m
+[0;38;5;28m   ...: [8D[8C[?7h[0m[?12l[?25h[?25l[?7l[8D[0m [0m[K[A[44C[?7h[0m[?12l[?25h[?25l[?7l[45D[0m[J[0;38;5;28mIn [[0;92;1m1[0;38;5;28m]: [0;38;5;28;1mfrom[0m [0;38;5;32;1mmlproject.tools[0m [0;38;5;28;1mimport[0m haversine[45D[0m
+[J[?7h[0m[?12l[?25h[?2004l
+[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;92;1m2[0;38;5;28m]: [8D[8C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[0mhaversine[0;38;5;16;48;5;152m([0;38;5;28m48.865070[0m, [0;38;5;28m2.380009[0m, [0;38;5;28m43.535065[0m, [0;38;5;28m3.427292[0;38;5;16;48;5;152m)[?7h[0m[?12l[?25h[?25l[?7l[59D[0m[J[0;38;5;28mIn [[0;92;1m2[0;38;5;28m]: [0mhaversine([0;38;5;28m48.865070[0m, [0;38;5;28m2.380009[0m, [0;38;5;28m43.535065[0m, [0;38;5;28m3.427292[0m)[59D[0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0;38;5;88mOut[[0;91;1m2[0;38;5;88m]: [0m[0m603.2466449981002
+
+[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0;38;5;28mIn [[0;92;1m3[0;38;5;28m]: [8D[8C[?7h[0m[?12l[?25h[?25l[?7l[?7h[0m[?12l[?25h[?25l[?7l[0me[?7h[0m[?12l[?25h[?25l[?7l[0mx[?7h[0m[?12l[?25h[?25l[?7l[0mt[?7h[0m[?12l[?25h[?25l[?7l[0m[K[?7h[0m[?12l[?25h[?25l[?7l[0mi[?7h[0m[?12l[?25h[?25l[?7l[0mt[?7h[0m[?12l[?25h[?25l[?7l[12D[0m[J[0;38;5;28mIn [[0;92;1m3[0;38;5;28m]: [0mexit[12D[0m
+[J[?7h[0m[?12l[?25h[?2004l[23;0t[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mipython[39m [8D[32mm[32ma[32mk[32me[39m[39m [39m[4mt[39m[4me[4ms[4mt[24m[9D[32ms[32mt[32mt[39m[39m  [24m [24m [24m [24m [32mm[32ma[32mk[32me[39m [4mtest[24m[?1l>[?2004l[24mt[24me[24ms[24mt
+]2;make test]1;make[1m================================ test session starts ================================[0m
+platform darwin -- Python 3.8.6, pytest-6.1.2, py-1.9.0, pluggy-0.13.1
+rootdir: /Users/hugocart/code/hugocart/mlproject
+[1mcollecting ... [0m[1mcollecting 1 item                                                                   [0m[1mcollected 3 items                                                                   [0m
+
+tests/lib_test.py [32m.[0m[32m.[0m[32m                                                          [ 33%][0m
+tests/tool_test.py [32m.[0m
+
+[32m================================= [32m[1m3 passed[0m[32m in 1.22s[0m[32m =================================[0m
+Name                    Stmts   Miss  Cover   Missing
+-----------------------------------------------------
+mlproject/__init__.py       6      2    67%   7-8
+mlproject/lib.py           31      5    84%   53-57
+mlproject/tools.py          9      0   100%
+tests/__init__.py           0      0   100%
+tests/lib_test.py          13      0   100%
+tests/tool_test.py          4      0   100%
+-----------------------------------------------------
+TOTAL                      63      7    89%
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mcd ~/code/hugocart/data-challenges/[27m
+[7mgit status[27m[K
+[7m# Is git status clean? If not, commit/checkout/clean first[27m[K
+[K
+[7m# Download any challenge updates (from Teachers)[27m[K
+[7mgit pull upstream master -X ours[27m[K
+[K
+[K
+[7m# Go to challenge folder[27m[K
+[7mcd 07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[27m[K
+[K
+[7m# Open challenge folder in your text editor[27m[K
+[7mstt[27m[K[12A[25C[27m[32mc[27m[32md[39m[27m [27m[4m~[27m[4m/[27m[4mc[27m[4mo[27m[4md[27m[4me[27m[4m/[27m[4mh[27m[4mu[27m[4mg[27m[4mo[27m[4mc[27m[4ma[27m[4mr[27m[4mt[27m[4m/[27m[4md[27m[4ma[27m[4mt[27m[4ma[27m[4m-[27m[4mc[27m[4mh[27m[4ma[27m[4ml[27m[4ml[27m[4me[27m[4mn[27m[4mg[27m[4me[27m[4ms[27m[4m/[24m[1B[27m[32mg[27m[32mi[27m[32mt[39m[27m [27ms[27mt[27ma[27mt[27mu[27ms[1B[27m[1m[30m#[27m[1m[30m [27m[1m[30mI[27m[1m[30ms[27m[1m[30m [27m[1m[30mg[27m[1m[30mi[27m[1m[30mt[27m[1m[30m [27m[1m[30ms[27m[1m[30mt[27m[1m[30ma[27m[1m[30mt[27m[1m[30mu[27m[1m[30ms[27m[1m[30m [27m[1m[30mc[27m[1m[30ml[27m[1m[30me[27m[1m[30ma[27m[1m[30mn[27m[1m[30m?[27m[1m[30m [27m[1m[30mI[27m[1m[30mf[27m[1m[30m [27m[1m[30mn[27m[1m[30mo[27m[1m[30mt[27m[1m[30m,[27m[1m[30m [27m[1m[30mc[27m[1m[30mo[27m[1m[30mm[27m[1m[30mm[27m[1m[30mi[27m[1m[30mt[27m[1m[30m/[27m[1m[30mc[27m[1m[30mh[27m[1m[30me[27m[1m[30mc[27m[1m[30mk[27m[1m[30mo[27m[1m[30mu[27m[1m[30mt[27m[1m[30m/[27m[1m[30mc[27m[1m[30ml[27m[1m[30me[27m[1m[30ma[27m[1m[30mn[27m[1m[30m [27m[1m[30mf[27m[1m[30mi[27m[1m[30mr[27m[1m[30ms[27m[1m[30mt[0m[39m[2B[27m[1m[30m#[27m[1m[30m [27m[1m[30mD[27m[1m[30mo[27m[1m[30mw[27m[1m[30mn[27m[1m[30ml[27m[1m[30mo[27m[1m[30ma[27m[1m[30md[27m[1m[30m [27m[1m[30ma[27m[1m[30mn[27m[1m[30my[27m[1m[30m [27m[1m[30mc[27m[1m[30mh[27m[1m[30ma[27m[1m[30ml[27m[1m[30ml[27m[1m[30me[27m[1m[30mn[27m[1m[30mg[27m[1m[30me[27m[1m[30m [27m[1m[30mu[27m[1m[30mp[27m[1m[30md[27m[1m[30ma[27m[1m[30mt[27m[1m[30me[27m[1m[30ms[27m[1m[30m [27m[1m[30m([27m[1m[30mf[27m[1m[30mr[27m[1m[30mo[27m[1m[30mm[27m[1m[30m [27m[1m[30mT[27m[1m[30me[27m[1m[30ma[27m[1m[30mc[27m[1m[30mh[27m[1m[30me[27m[1m[30mr[27m[1m[30ms[27m[1m[30m)[0m[39m[1B[27m[32mg[27m[32mi[27m[32mt[39m[27m [27mp[27mu[27ml[27ml[27m [27mu[27mp[27ms[27mt[27mr[27me[27ma[27mm[27m [27mm[27ma[27ms[27mt[27me[27mr[27m [27m-[27mX[27m [27mo[27mu[27mr[27ms[3B[27m[1m[30m#[27m[1m[30m [27m[1m[30mG[27m[1m[30mo[27m[1m[30m [27m[1m[30mt[27m[1m[30mo[27m[1m[30m [27m[1m[30mc[27m[1m[30mh[27m[1m[30ma[27m[1m[30ml[27m[1m[30ml[27m[1m[30me[27m[1m[30mn[27m[1m[30mg[27m[1m[30me[27m[1m[30m [27m[1m[30mf[27m[1m[30mo[27m[1m[30ml[27m[1m[30md[27m[1m[30me[27m[1m[30mr[0m[39m[1B[27m[32mc[27m[32md[39m[27m [27m0[27m7[27m-[27mD[27ma[27mt[27ma[27m-[27mE[27mn[27mg[27mi[27mn[27me[27me[27mr[27mi[27mn[27mg[27m/[27m0[27m1[27m-[27mC[27mo[27md[27me[27m-[27ma[27ms[27m-[27ma[27m-[27mP[27mr[27mo[27md[27mu[27mc[27mt[27m/[27m0[27m4[27m-[27mS[27mh[27ma[27mr[27me[27m-[27my[27mo[27mu[27mr[27m-[27mc[27mo[27md[27me[2B[27m[1m[30m#[27m[1m[30m [27m[1m[30mO[27m[1m[30mp[27m[1m[30me[27m[1m[30mn[27m[1m[30m [27m[1m[30mc[27m[1m[30mh[27m[1m[30ma[27m[1m[30ml[27m[1m[30ml[27m[1m[30me[27m[1m[30mn[27m[1m[30mg[27m[1m[30me[27m[1m[30m [27m[1m[30mf[27m[1m[30mo[27m[1m[30ml[27m[1m[30md[27m[1m[30me[27m[1m[30mr[27m[1m[30m [27m[1m[30mi[27m[1m[30mn[27m[1m[30m [27m[1m[30my[27m[1m[30mo[27m[1m[30mu[27m[1m[30mr[27m[1m[30m [27m[1m[30mt[27m[1m[30me[27m[1m[30mx[27m[1m[30mt[27m[1m[30m [27m[1m[30me[27m[1m[30md[27m[1m[30mi[27m[1m[30mt[27m[1m[30mo[27m[1m[30mr[0m[39m[1B[27m[32ms[27m[32mt[27m[32mt[39m[?1l>[?2004l
+]2;cd ~/code/hugocart/data-challenges/; git status; git pull upstream master -X ]1;cdOn branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   06-Deep-Learning/05-Natural-Language-Processing/01-understand-embeddings-with-word2vec/understand-embeddings-with-word2vec.ipynb[m
+	[31mmodified:   06-Deep-Learning/05-Natural-Language-Processing/04-letter-generation/letter_generation.ipynb[m
+	[31mmodified:   07-Data-Engineering/01-Code-as-a-Product/01-Package-builder/README.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+warning: Pulling without specifying how to reconcile divergent branches is
+discouraged. You can squelch this message by running one of the following
+commands sometime before your next pull:
+
+  git config pull.rebase false  # merge (the default strategy)
+  git config pull.rebase true   # rebase
+  git config pull.ff only       # fast-forward only
+
+You can replace "git config" with "git config --global" to set a default
+preference for all repositories. You can also pass --rebase, --no-rebase,
+or --ff-only on the command line to override the configured default per
+invocation.
+
+From github.com:lewagon/data-challenges
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;32m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpip install git+git://github.com/GIT_USER/mlproj[7me[7mct.git[27m[K[A[30C[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mi[27mt[27m+[27mg[27mi[27mt[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mG[27mI[27mT[27m_[27mU[27mS[27mE[27mR[27m/[27mm[27ml[27mp[27mr[27mo[27mje[27mc[27mt[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;pip install git+git://github.com/GIT_USER/mlproject.git]1;pipCollecting git+git://github.com/GIT_USER/mlproject.git
+  Cloning git://github.com/GIT_USER/mlproject.git to /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-vv629hsz
+[31mERROR: Command errored out with exit status 128: git clone -q git://github.com/GIT_USER/mlproject.git /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-vv629hsz Check the logs for full command output.[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpip install git+git://github.com/hugocart/mlproj[7me[7mct.git[27m[K[A[30C[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mi[27mt[27m+[27mg[27mi[27mt[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mh[27mu[27mg[27mo[27mc[27ma[27mr[27mt[27m/[27mm[27ml[27mp[27mr[27mo[27mje[27mc[27mt[27m.[27mg[27mi[27mt[?1l>[?2004l
+]2;pip install git+git://github.com/hugocart/mlproject.git]1;pipCollecting git+git://github.com/hugocart/mlproject.git
+  Cloning git://github.com/hugocart/mlproject.git to /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-ib9qb3h1
+[31mERROR: Command errored out with exit status 128: git clone -q git://github.com/hugocart/mlproject.git /private/var/folders/6l/s33mm0l532lf9kw_rx8ltwcm0000gn/T/pip-req-build-ib9qb3h1 Check the logs for full command output.[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mp[39m[1m[31mp[1m[31mi[0m[39m[0m[32mp[0m[32mi[32mp[39m install git[?1l>[?2004l
+]2;pip install git]1;pip[31mERROR: Could not find a version that satisfies the requirement git (from versions: none)[0m
+[31mERROR: No matching distribution found for git[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mpip[39m install git          [1m[31mp[1m[31mi[0m[39m[39m [0m[32mp[39m[0m[39m [39m [7mpip install git+https://github.com/hugocart/mlpr[7mo[7mject[27m[K[A[32C[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mi[27mt[27m+[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mh[27mu[27mg[27mo[27mc[27ma[27mr[27mt[27m/[27mm[27ml[27mp[27mro[27mj[27me[27mc[27mt[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mpip[39m install git+https://github.com/hugocart/mlproject[K[A[32C[K[1B[K[A[37C[32mpip[39m install git+https://github.com/hugocart/mlproject[K[A[32C[K[1B[K[A[37C[?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mpip[39m install git+https://github.com/hugocart/mlproject[K[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mpip[39m install git+https://github.com/hugocart/mlproject[K[K  o [K[A[84C[K[1B[K[A[84C                                           [1m[31mp[1m[31mi[0m[39m[39m [0m[32mp[39m[0m[39m [39m [?1l>[?2004l[1B[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code]2;hugocart@MacBook-Pro-de-Hugo]1;..are-your-code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/data-challenges/07-Data-Engineering/01-Code-as-a-Product/04-Share-your-code[0m[27m[24m[J[01;31m➜  [36m04-Share-your-code[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mApplications[39;49m[0m         [1m[36mGoogle Drive[39;49m[0m         [1m[36mPostman Agent[39;49m[0m        [1m[36mgetting-started[39;49m[0m
+[1m[36mCreative Cloud Files[39;49m[0m [1m[36mLibrary[39;49m[0m              [1m[36mPublic[39;49m[0m               [1m[36mnltk_data[39;49m[0m
+[1m[36mDesktop[39;49m[0m              [1m[36mMovies[39;49m[0m               [1m[36mcode[39;49m[0m                 [1m[36mscikit_learn_data[39;49m[0m
+[1m[36mDocuments[39;49m[0m            [1m[36mMusic[39;49m[0m                code alias           [1m[36mseaborn-data[39;49m[0m
+[1m[36mDownloads[39;49m[0m            [1m[36mPictures[39;49m[0m             [1m[36mgensim-data[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[32ml[39m[39m [39m [4mc[24m[24m[32mc[32md[39m [4mc[24m[4mc[4mo[24m[4mo[4mde[1m[4m/[0m[24m[4me[24m[0m[24m [?1l>[?2004l
+]2;cd code]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code]2;hugocart@MacBook-Pro-de-Hugo]1;~/code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code[0m[27m[24m[J[01;32m➜  [36mcode[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;ls[1m[36mhugocart[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code]2;hugocart@MacBook-Pro-de-Hugo]1;~/code]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code[0m[27m[24m[J[01;32m➜  [36mcode[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mh[24m[4mh[4mugocart[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd hugocart]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~/code/hugocart]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart[0m[27m[24m[J[01;32m➜  [36mhugocart[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [?1l>[?2004l
+]2;cd]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart[0m[27m[24m[J[01;32m➜  [36m~[00m [K[?1h=[?2004h[4mc[24m[24m[32mc[32md[39m [4mc[24m[4mc[4mo[24m[4mo[4mde[1m[4m/[0m[24m[0m[4m/[4mh[24m[4mh[4mu[24m[4mu[4mgocart[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd code/hugocart]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~/code/hugocart]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart[0m[27m[24m[J[01;32m➜  [36mhugocart[00m [K[?1h=[?2004h[32ml[39m[32ml[32ms[39m[?1l>[?2004l
+]2;ls -G]1;lsCheat Sheet - Python - Wagon.docx [1m[36mmlproject[39;49m[0m
+[1m[36mdata-challenges[39;49m[0m                   out.csv
+[1m[36mdotfiles[39;49m[0m
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart]2;hugocart@MacBook-Pro-de-Hugo]1;~/code/hugocart]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart[0m[27m[24m[J[01;32m➜  [36mhugocart[00m [K[?1h=[?2004h[1m[31mc[0m[39m[0m[32mc[32md[39m [4mm[24m[4mm[4ml[24m[4ml[4mproject[1m[4m/[0m[24m[4mt[24m[0m[24m [?1l>[?2004l
+]2;cd mlproject]1;cd[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpip install git+https://github.com/hugocart/mlproject[27m[53D[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mi[27mt[27m+[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mh[27mu[27mg[27mo[27mc[27ma[27mr[27mt[27m/[27mm[27ml[27mp[27mr[27mo[27mj[27me[27mc[27mt[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mpip install git+https://github.com/hugocart/mlproject[27m[53D[27m[32mp[27m[32mi[27m[32mp[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mi[27mt[27m+[27mh[27mt[27mt[27mp[27ms[27m:[27m/[27m/[27mg[27mi[27mt[27mh[27mu[27mb[27m.[27mc[27mo[27mm[27m/[27mh[27mu[27mg[27mo[27mc[27ma[27mr[27mt[27m/[27mm[27ml[27mp[27mr[27mo[27mj[27me[27mc[27mt[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[32mg[32mp[39m[?1l>[?2004l
+]2;git push]1;gpfatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mgp[39m[32mp[32mi[32mp[39m install git+https://github.com/hugocart/mlproject[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mg[39m[1m[31mg[1m[31mi[0m[39m[0m[32mg[0m[32mi[32mt[39m[?1l>[?2004l
+]2;git]1;gitusage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mgit[39m[32mp[32mi[32mp[39m install git+https://github.com/hugocart/mlproject[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mt[39m[32mt[32mr[39m[1m[31mt[1m[31mr[1m[31me[0m[39m[0m[32mt[0m[32mr[0m[32me[32me[39m[?1l>[?2004l
+]2;tree]1;tree.
+├── MANIFEST.in
+├── Makefile
+├── README.md
+├── mlproject
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── lib.cpython-38.pyc
+│   │   └── tools.cpython-38.pyc
+│   ├── data
+│   │   └── data.csv.gz
+│   ├── distance.py
+│   ├── lib.py
+│   └── tools.py
+├── out.csv
+├── requirements.txt
+├── scripts
+│   ├── mlproject-computedist
+│   └── mlproject-run
+├── setup.py
+├── tests
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-38.pyc
+│   │   ├── lib_test.cpython-38-pytest-6.1.2.pyc
+│   │   └── tool_test.cpython-38-pytest-6.1.2.pyc
+│   ├── lib_test.py
+│   └── tool_test.py
+└── typescript
+
+6 directories, 23 files
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;32m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[32mtree[39m[32mp[32mi[32mp[39m[39m install git+https://github.com/hugocart/mlproject[?1l>[?2004l
+]2;pip install git+https://github.com/hugocart/mlproject]1;pipERROR: unknown command "install git+https://github.com/hugocart/mlproject"
+[1m[7m%[27m[1m[0m                                                                                     ]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject]2;hugocart@MacBook-Pro-de-Hugo]1;..art/mlproject]7;file://MacBook-Pro-de-Hugo.local/Users/hugocart/code/hugocart/mlproject[0m[27m[24m[J[01;31m➜  [36mmlproject[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004h[7mbrew install gh[27m[15D[27m[32mb[27m[32mr[27m[32me[27m[32mw[39m[27m [27mi[27mn[27ms[27mt[27ma[27ml[27ml[27m [27mg[27mh[?1l>[?2004l
+]2;brew install gh]1;brewUpdating Homebrew...
+^[[A^[[A^[[B
